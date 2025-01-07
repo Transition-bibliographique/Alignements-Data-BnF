@@ -17,10 +17,8 @@ $ python3 --version
 
 ```
 $ apt install python3-tk python3-unidecode 
-$ pip3 install pymarc
-$ pip3 install SPARQLWrapper
-$ pip3 install lxml
-$ pip3 install smc.bibencodings
+$ pip3 install poetry
+$ poetry install
 ```
 
 ## Lancer Bibliostratus
@@ -28,6 +26,7 @@ $ pip3 install smc.bibencodings
 ```
 $ git clone <le depôt bibliostratus.git>
 $ cd bibliostratus/bibliostratus
+$ chmod u+x launch_bibliostratus.sh
 $ ./launch_bibliostratus.sh 
 ```
 

@@ -6,11 +6,14 @@ authors = ["Etienne Cavalié <lully1804@yahoo.fr>"]
 license = "GPL-3.0"
 
 [tool.poetry.dependencies]
-python = "^3.5"
+python = "^3.8"
 unidecode = "^1.0"
 lxml = "^4.2"
 chardet = "^3.0"
 pymarc = "^3.1"
+smc-bibencodings = "^0.1"
+joblib = "^1.4.2"
+sparqlwrapper = "^2.0.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.6"
